@@ -1,6 +1,6 @@
-import Cta from "../components/CTA/Cta.jsx";
-import AboutMe from "../container/AboutMe";
-import Header from "../container/Header";
+import Cta from "../components/Cta/Cta.jsx";
+import AboutMe from "../container/Home/AboutMe.jsx";
+import Header from "../container/Home/Header.jsx";
 import Card from "../UI/Card";
 
 const HomePage = () => {

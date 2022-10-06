@@ -1,5 +1,5 @@
-import homepageImages from "../constants/homepage-images";
-import icons from "../constants/icons";
+import homepageImages from "../../constants/images/homepage-images";
+import icons from "../../constants/images/icons";
 
 const Header = () => {
   return (

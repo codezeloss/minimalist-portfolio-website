@@ -1,5 +1,5 @@
-import PortfolioItem from "../components/PortfolioItem/PortfolioItem";
-import projects from "../constants/projects";
+import PortfolioItem from "../../components/PortfolioItem/PortfolioItem";
+import projects from "../../constants/content/projects";
 
 const Projects = () => {
   return (

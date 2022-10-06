@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import homepageImages from "../constants/homepage-images";
+import homepageImages from "../../constants/images/homepage-images";
 
 const AboutMe = () => {
   return (

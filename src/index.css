@@ -33,4 +33,16 @@
   .btn-secondary:hover {
     @apply bg-dark-blue text-[#FFFFFF] border-0;
   }
+  .user-input {
+    @apply flex flex-col gap-[8px];
+  }
+  .label-title {
+    @apply font-publicsans leading-[30px] text-[13px] text-dark-blue font-bold opacity-[.8];
+  }
+  .input01 {
+    @apply text-dark-blue w-[635px] h-[48px] py-[9px] px-[16px] bg-dark-blue/[.1];
+  }
+  .input02 {
+    @apply text-dark-blue w-[635px] min-h-[96px] py-[9px] px-[16px] bg-dark-blue/[.1];
+  }
 }

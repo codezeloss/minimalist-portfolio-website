@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import icons from "../../constants/icons";
+import icons from "../../constants/images/icons";
 import Card from "../../UI/Card";
 
 const Navbar = () => {

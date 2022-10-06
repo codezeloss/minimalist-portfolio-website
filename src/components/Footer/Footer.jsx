@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import icons from "../../constants/icons";
+import icons from "../../constants/images/icons";
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 const Footer = () => {
   return (
@@ -24,23 +25,11 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex flex-row gap-[15px] items-center justify-center">
-          <img
-            className="w-[25px] h-[24px]"
-            src={icons.githubWhite}
-            alt="github"
-          />
-          <img
-            className="w-[24px] h-[19.5px]"
-            src={icons.twitterWhite}
-            alt="twitter"
-          />
-          <img
-            className="w-[24px] h-[24px]"
-            src={icons.linkedinWhite}
-            alt="linkedin"
-          />
-        </div>
+        <SocialMedia
+          githubImg={icons.githubWhite}
+          twitterImg={icons.twitterWhite}
+          linkedinImg={icons.linkedinWhite}
+        />
       </footer>
     </div>
   );

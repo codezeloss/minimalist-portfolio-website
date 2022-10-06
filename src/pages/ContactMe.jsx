@@ -1,9 +1,13 @@
+import ContactForm from "../container/ContactMe/ContactForm";
+import GetInTouch from "../container/ContactMe/GetInTouch";
+import Card from "../UI/Card";
 
 const ContactMe = () => {
   return (
-    <div>
-      <h1 className="text-center mt-4">ContactMe</h1>
-    </div>
+    <Card>
+      <GetInTouch />
+      <ContactForm />
+    </Card>
   );
 };
 
