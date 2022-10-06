@@ -1,6 +1,6 @@
-// desktop
+// desktop ---------------------
 import desktopBookmarkHero from "../../assets/detail/desktop/image-bookmark-hero.jpg";
-import desktopBookmarkPreview from "../../assets/detail/desktop/image-bookmark-preview.jpg";
+import desktopBookmarkPreview01 from "../../assets/detail/desktop/image-bookmark-preview-1.jpg";
 import desktopBookmarkPreview02 from "../../assets/detail/desktop/image-bookmark-preview-2.jpg";
 
 import desktopFyloHero from "../../assets/detail/desktop/image-fylo-hero.jpg";
@@ -15,9 +15,9 @@ import desktopManageHero from "../../assets/detail/desktop/image-manage-hero.jpg
 import desktopManagePreview01 from "../../assets/detail/desktop/image-manage-preview-1.jpg";
 import desktopManagePreview02 from "../../assets/detail/desktop/image-manage-preview-2.jpg";
 
-// mobile
+// mobile ---------------------
 import mobileBookmarkHero from "../../assets/detail/mobile/image-bookmark-hero.jpg";
-import mobileBookmarkPreview from "../../assets/detail/mobile/image-bookmark-preview.jpg";
+import mobileBookmarkPreview01 from "../../assets/detail/mobile/image-bookmark-preview-1.jpg";
 import mobileBookmarkPreview02 from "../../assets/detail/mobile/image-bookmark-preview-2.jpg";
 
 import mobileFyloHero from "../../assets/detail/mobile/image-fylo-hero.jpg";
@@ -32,9 +32,9 @@ import mobileManageHero from "../../assets/detail/mobile/image-manage-hero.jpg";
 import mobileManagePreview01 from "../../assets/detail/mobile/image-manage-preview-1.jpg";
 import mobileManagePreview02 from "../../assets/detail/mobile/image-manage-preview-2.jpg";
 
-// tablet
+// tablet ---------------------
 import tabletBookmarkHero from "../../assets/detail/tablet/image-bookmark-hero.jpg";
-import tabletBookmarkPreview from "../../assets/detail/tablet/image-bookmark-preview.jpg";
+import tabletBookmarkPreview01 from "../../assets/detail/tablet/image-bookmark-preview-1.jpg";
 import tabletBookmarkPreview02 from "../../assets/detail/tablet/image-bookmark-preview-2.jpg";
 
 import tabletFyloHero from "../../assets/detail/tablet/image-fylo-hero.jpg";
@@ -51,7 +51,7 @@ import tabletManagePreview02 from "../../assets/detail/tablet/image-manage-previ
 
 export default {
   desktopBookmarkHero,
-  desktopBookmarkPreview,
+  desktopBookmarkPreview01,
   desktopBookmarkPreview02,
   desktopFyloHero,
   desktopFyloPreview01,
@@ -63,7 +63,7 @@ export default {
   desktopManagePreview01,
   desktopManagePreview02,
   mobileBookmarkHero,
-  mobileBookmarkPreview,
+  mobileBookmarkPreview01,
   mobileBookmarkPreview02,
   mobileFyloHero,
   mobileFyloPreview01,
@@ -75,7 +75,7 @@ export default {
   mobileManagePreview01,
   mobileManagePreview02,
   tabletBookmarkHero,
-  tabletBookmarkPreview,
+  tabletBookmarkPreview01,
   tabletBookmarkPreview02,
   tabletFyloHero,
   tabletFyloPreview01,

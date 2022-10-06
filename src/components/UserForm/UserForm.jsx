@@ -40,7 +40,7 @@ const UserForm = () => {
         />
       </div>
 
-      {/* Submit */}
+      {/* Submit Button */}
       <button className="btn-secondary w-[200px]">SEND MESSAGE</button>
     </form>
   );
