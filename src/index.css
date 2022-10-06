@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-ibarra text-[50px] tracking-[-0.446429px] leading-[50px] font-bold text-dark-blue;
+  }
+  h2 {
+    @apply font-ibarra text-[40px] tracking-[-0.357143px] leading-[42px] font-bold text-dark-blue;
+  }
+  h3 {
+    @apply font-ibarra text-[32px] tracking-[-0.285714px] leading-[36px] font-bold text-dark-blue;
+  }
+  .p-body1 {
+    @apply font-publicsans text-[16px] font-medium leading-[30px] text-dark-blue opacity-[.8];
+  }
+  .p-body2 {
+    @apply font-publicsans text-[15px] font-medium leading-[30px] text-dark-blue opacity-[.8];
+  }
+  .btn-primary {
+    @apply font-publicsans text-[12px] uppercase font-medium w-[200px] h-[48px] bg-dark-blue text-[#FFFFFF] leading-[14px] tracking-[2px] text-center flex flex-row justify-center items-center pr-[41px];
+  }
+  .btn-primary img {
+    @apply w-[48px] h-[100%] ml-0 mr-auto bg-grayish-darkblue py-[18px] px-[16px];
+  }
+  .btn-primary:hover {
+    @apply bg-desaturated-cyan;
+  }
+  .btn-secondary {
+    @apply font-publicsans text-[12px] font-medium h-[48px] leading-[14px] uppercase text-center border-[1px] tracking-[2px] flex justify-center items-center;
+  }
+  .btn-secondary:hover {
+    @apply bg-dark-blue text-[#FFFFFF] border-0;
+  }
+}
