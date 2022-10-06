@@ -1,7 +1,17 @@
+import { useEffect } from "react";
 import homepageImages from "../../constants/images/homepage-images";
 import icons from "../../constants/images/icons";
 
 const Header = () => {
+  // const smoothScroll = () => {
+  //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  // };
+  useEffect(() => {
+    () => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  }, []);
+
   return (
     <section>
       <div className="mt-[54px] flex flex-col justify-end">

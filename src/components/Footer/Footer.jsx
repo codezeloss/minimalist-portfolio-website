@@ -3,6 +3,10 @@ import icons from "../../constants/images/icons";
 import SocialMedia from "../SocialMedia/SocialMedia";
 
 const Footer = () => {
+  const smoothScroll = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="w-[100%] bg-dark-blue mt-[150px] h-[80px] flex flex-row items-center bottom-0">
       <footer className="w-[1111px] mx-auto flex flex-row justify-between px-[1.8rem] ">
@@ -13,13 +17,13 @@ const Footer = () => {
             alt="Portfolio logo"
           />
           <ul className="flex flex-row gap-[42px] uppercase text-[12px] font-medium text-white font-publicsans tracking-[2px] leading-[14px] cursor-pointer">
-            <Link to="/">
+            <Link to="/" onClick={smoothScroll}>
               <li>Home</li>
             </Link>
-            <Link to="/portfolio">
+            <Link to="/portfolio" onClick={smoothScroll}>
               <li>Portfolio</li>
             </Link>
-            <Link to="/contact-me">
+            <Link to="/contact-me" onClick={smoothScroll}>
               <li>Contact me</li>
             </Link>
           </ul>

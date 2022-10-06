@@ -12,6 +12,10 @@ const ProjectDetailPage = ({
   techStack,
   backgroundText,
 }) => {
+  const smoothScroll = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   return (
     <Card>
       <div className="mt-[98px]">
@@ -31,7 +35,10 @@ const ProjectDetailPage = ({
             <p className="text-desaturated-cyan font-publicsans uppercase font-bold text-[16px] leading-[30px] mt-[16px]">
               {techStack}
             </p>
-            <button className="btn-secondary mt-[32px] w-[178px]">
+            <button
+              onClick={smoothScroll}
+              className="btn-secondary mt-[32px] w-[178px]"
+            >
               Visit website
             </button>
           </div>

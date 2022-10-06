@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 
 const PortfolioItem = ({ image, description, title, text, link }) => {
+  const smoothScroll = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   const addClasses = `flex flex-row gap-[125px] ${
     title === "Bookmark" ? "flex-row-reverse" : ""
   } ${title === "Fylo" ? "flex-row-reverse" : ""}`;
@@ -13,7 +17,10 @@ const PortfolioItem = ({ image, description, title, text, link }) => {
         <h2>{title}</h2>
         <p className="p-body1 mt-[28px]">{text}</p>
         <Link to={link}>
-          <button className="btn-secondary w-[175px] mt-[24px]">
+          <button
+            onClick={smoothScroll}
+            className="btn-secondary w-[175px] mt-[24px]"
+          >
             View project
           </button>
         </Link>

@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import homepageImages from "../../constants/images/homepage-images";
 
 const AboutMe = () => {
+  const smoothScroll = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   return (
     <section id="about-me">
       <div className="flex flex-row mt-[150px] gap-[125px] justify-start">
@@ -24,7 +28,10 @@ const AboutMe = () => {
             for a walk, run or cycling. I’d love you to check out my work.
           </p>
           <Link to="/portfolio">
-            <button className="btn-secondary w-[202px] mt-[24px] mb-[46px]">
+            <button
+              onClick={smoothScroll}
+              className="btn-secondary w-[202px] mt-[24px] mb-[46px]"
+            >
               Go to portfolio
             </button>
           </Link>
