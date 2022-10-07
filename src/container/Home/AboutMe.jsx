@@ -20,7 +20,7 @@ const AboutMe = () => {
           alt="Profile picture"
         />
         <img
-          className="hidden w-[311px] h-[346px] 5bp:flex"
+          className="hidden w-[311px] h-[346px]"
           src={homepageImages.mobileProfileImage}
           alt="Profile picture"
         />
