@@ -1,4 +1,6 @@
 // import projectsDetails from "../../constants/content/projects-details";
+import { useEffect } from "react";
+import ProjectsNavigation from "../../components/ProjectsNavigation/ProjectsNavigation";
 import Card from "../../UI/Card";
 
 const ProjectDetailPage = ({
@@ -11,10 +13,18 @@ const ProjectDetailPage = ({
   type,
   techStack,
   backgroundText,
+  prevProject,
+  nextProject,
+  prevpLink,
+  nextpLink,
 }) => {
   const smoothScroll = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    smoothScroll();
+  }, []);
 
   return (
     <Card>
@@ -46,7 +56,7 @@ const ProjectDetailPage = ({
           <div className="w-[635px]">
             <div>
               <h3>Project Background</h3>
-              <p className="p-body2 mt-[28px] w-[635px]">{backgroundText}</p>
+              <p className="p-body2 mt-[28px] w-[100%]">{backgroundText}</p>
             </div>
             <div className="mt-[40px]">
               <h3>Static Previews</h3>
@@ -58,6 +68,13 @@ const ProjectDetailPage = ({
           </div>
         </div>
       </div>
+
+      <ProjectsNavigation
+        prevProject={prevProject}
+        nextProject={nextProject}
+        prevpLink={prevpLink}
+        nextpLink={nextpLink}
+      />
     </Card>
   );
 };

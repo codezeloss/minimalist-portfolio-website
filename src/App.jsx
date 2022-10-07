@@ -29,6 +29,10 @@ function App() {
                 type={projectsDetails.manage.type}
                 techStack={projectsDetails.manage.techStack}
                 backgroundText={projectsDetails.manage.backgroundText}
+                prevProject={projectsDetails.fylo.title}
+                prevpLink={projectsDetails.fylo.pLink}
+                nextProject={projectsDetails.bookmark.title}
+                nextpLink={projectsDetails.bookmark.pLink}
               />
             }
           />
@@ -45,6 +49,10 @@ function App() {
                 type={projectsDetails.bookmark.type}
                 techStack={projectsDetails.bookmark.techStack}
                 backgroundText={projectsDetails.bookmark.backgroundText}
+                prevProject={projectsDetails.manage.title}
+                prevpLink={projectsDetails.manage.pLink}
+                nextProject={projectsDetails.insure.title}
+                nextpLink={projectsDetails.insure.pLink}
               />
             }
           />
@@ -61,6 +69,10 @@ function App() {
                 type={projectsDetails.insure.type}
                 techStack={projectsDetails.insure.techStack}
                 backgroundText={projectsDetails.insure.backgroundText}
+                prevProject={projectsDetails.bookmark.title}
+                prevpLink={projectsDetails.bookmark.pLink}
+                nextProject={projectsDetails.fylo.title}
+                nextpLink={projectsDetails.fylo.pLink}
               />
             }
           />
@@ -77,6 +89,10 @@ function App() {
                 type={projectsDetails.fylo.type}
                 techStack={projectsDetails.fylo.techStack}
                 backgroundText={projectsDetails.fylo.backgroundText}
+                prevProject={projectsDetails.insure.title}
+                prevpLink={projectsDetails.insure.pLink}
+                nextProject={projectsDetails.manage.title}
+                nextpLink={projectsDetails.manage.pLink}
               />
             }
           />

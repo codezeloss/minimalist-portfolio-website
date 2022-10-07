@@ -20,6 +20,7 @@ const manage = {
   },
   title: "Manage",
   altTitle: "Manage project picture",
+  pLink: "manage",
   description:
     "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
   type: "Interaction Design / Front End Development",
@@ -49,6 +50,7 @@ const bookmark = {
   },
   title: "Bookmark",
   altTitle: "Bookmark project picture",
+  pLink: "bookmark",
   description:
     "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
   type: "Interaction Design / Front End Development",
@@ -78,6 +80,7 @@ const insure = {
   },
   title: "Insure",
   altTitle: "Insure project picture",
+  pLink: "insure",
   description:
     "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
   type: "Interaction Design / Front End Development",
@@ -107,6 +110,7 @@ const fylo = {
   },
   title: "Fylo",
   altTitle: "Fylo project picture",
+  pLink: "fylo",
   description:
     "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
   type: "Interaction Design / Front End Development",
