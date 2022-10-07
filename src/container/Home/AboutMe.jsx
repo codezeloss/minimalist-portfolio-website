@@ -8,14 +8,24 @@ const AboutMe = () => {
 
   return (
     <section id="about-me">
-      <div className="flex flex-row mt-[150px] gap-[125px] justify-start">
+      <div className="flex flex-row mt-[150px] gap-[125px] justify-start 1bp:gap-[43px] 3bp:items-center 4bp:flex-col">
         <img
-          className="w-[540px] h-[600px]"
+          className="w-[540px] h-[600px] 2bp:hidden 4bp:flex 4bp:h-[100%]"
           src={homepageImages.desktopProfileImage}
           alt="Profile picture"
         />
+        <img
+          className="hidden w-[540px] h-[600px] 2bp:flex 4bp:hidden"
+          src={homepageImages.tabletProfileImage}
+          alt="Profile picture"
+        />
+        <img
+          className="hidden w-[540px] h-[600px] 5bp:flex"
+          src={homepageImages.mobileProfileImage}
+          alt="Profile picture"
+        />
 
-        <div className="max-w-[350px] border-y-[1px] border-dark-blue/[.15]">
+        <div className="max-w-[350px] border-y-[1px] border-dark-blue/[.15] 1bp:max-w-[100%]">
           <h2 className="mt-[50px]">About Me</h2>
           <p className="p-body1 mt-[28px]">
             I’m a junior front-end developer looking for a new role in an

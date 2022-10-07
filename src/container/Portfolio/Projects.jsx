@@ -1,38 +1,45 @@
-import PortfolioItem from "../../components/PortfolioItem/PortfolioItem";
+import ProjectItem from "../../components/ProjectItem/ProjectItem";
 import projects from "../../constants/content/projects";
 
 const Projects = () => {
   return (
     <section className="mt-[94px] flex flex-col gap-[80px]">
-      <PortfolioItem
-        image={projects.manage.images.desktop}
+      <ProjectItem
+        imageDesk={projects.manage.images.desktop}
+        imageTablet={projects.manage.images.tablet}
+        imageMobile={projects.manage.images.mobile}
         description={projects.manage.description}
         title={projects.manage.title}
         text={projects.manage.text}
         link={projects.manage.link}
       />
-      <PortfolioItem
-        image={projects.bookmark.images.desktop}
+      <ProjectItem
+        imageDesk={projects.bookmark.images.desktop}
+        imageTablet={projects.bookmark.images.tablet}
+        imageMobile={projects.bookmark.images.mobile}
         description={projects.bookmark.description}
         title={projects.bookmark.title}
         text={projects.bookmark.text}
         link={projects.bookmark.link}
       />
-      <PortfolioItem
-        image={projects.insure.images.desktop}
+      <ProjectItem
+        imageDesk={projects.insure.images.desktop}
+        imageTablet={projects.insure.images.tablet}
+        imageMobile={projects.insure.images.mobile}
         description={projects.insure.description}
         title={projects.insure.title}
         text={projects.insure.text}
         link={projects.insure.link}
       />
-      <PortfolioItem
-        image={projects.fylo.images.desktop}
+      <ProjectItem
+        imageDesk={projects.fylo.images.desktop}
+        imageTablet={projects.fylo.images.tablet}
+        imageMobile={projects.fylo.images.mobile}
         description={projects.fylo.description}
         title={projects.fylo.title}
         text={projects.fylo.text}
         link={projects.fylo.link}
       />
-      {/* image, description, title, text, link */}
     </section>
   );
 };

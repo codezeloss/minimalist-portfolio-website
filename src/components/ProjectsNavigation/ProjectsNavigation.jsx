@@ -14,12 +14,13 @@ const ProjectsNavigation = ({
   return (
     <div className="border-y-[1px] border-dark-blue/[.15] mt-[64px] flex flex-row justify-between items-center">
       <Link to={`../portfolio/${prevpLink}`} onClick={smoothScroll}>
-        <div className="flex flex-row my-[32px] gap-[32px] items-center justify-center">
+        <div className="flex flex-row my-[32px] gap-[32px] items-center justify-center 4bp:flex-col 4bp:justify-start 4bp:items-start">
           <img
             className="w-[8px] h-[16px]"
             src={icons.arrowLeft}
             alt="arrow left"
           />
+
           <div className="flex flex-col items-start">
             <h3>{prevProject}</h3>
             <span className="text-dark-blue/[.5] font-publicsans font-normal leading-[30px]">
@@ -32,13 +33,14 @@ const ProjectsNavigation = ({
       <div className="w-[1px] h-[130px] bg-dark-blue/[.15]" />
 
       <Link to={`../portfolio/${nextpLink}`} onClick={smoothScroll}>
-        <div className="flex flex-row my-[32px] gap-[32px] items-center justify-center">
+        <div className="flex flex-row my-[32px] gap-[32px] items-center justify-center 4bp:justify-end 4bp:items-end 4bp:flex-col-reverse">
           <div className="flex flex-col items-end">
             <h3>{nextProject}</h3>
             <span className="text-dark-blue/[.5] font-publicsans font-normal leading-[30px]">
               Next Project
             </span>
           </div>
+
           <img
             className="w-[8px] h-[16px]"
             src={icons.arrowRight}

@@ -1,6 +1,6 @@
 const SocialMedia = ({ twitterImg, githubImg, linkedinImg }) => {
   return (
-    <div className="flex flex-row gap-[15px] items-center">
+    <div className="flex flex-row gap-[15px] items-center 4bp:justify-center">
       <img
         className="w-[25px] h-[24px] cursor-pointer"
         src={githubImg}
