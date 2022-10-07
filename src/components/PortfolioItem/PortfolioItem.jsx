@@ -11,7 +11,11 @@ const PortfolioItem = ({ image, description, title, text, link }) => {
 
   return (
     <div className={addClasses}>
-      <img className="w-[540px] h-[500px]" src={image} alt={description} />
+      <img
+        className="w-[540px] h-[500px]"
+        src={image}
+        alt={description}
+      />
 
       <div className="w-[350px] border-y-[1px] border-dark-blue/[.15] flex flex-col justify-center">
         <h2>{title}</h2>

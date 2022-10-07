@@ -14,7 +14,9 @@ const Navbar = () => {
   return (
     <Card>
       <nav className="flex flex-row justify-between items-center mt-[64px]">
-        <img className="w-[68.08px] h-[32px]" src={icons.logo} alt="logo" />
+        <Link to="/">
+          <img className="w-[68.08px] h-[32px]" src={icons.logo} alt="logo" />
+        </Link>
         <ul className="flex flex-row gap-[32px] uppercase text-[12px] font-medium font-publicsans tracking-[2px] leading-[14px] cursor-pointer">
           <NavLink
             onClick={smoothScroll}

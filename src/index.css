@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply bg-[#F2F2F2];
+  }
   h1 {
     @apply font-ibarra text-[50px] tracking-[-0.446429px] leading-[50px] font-bold text-dark-blue;
   }
