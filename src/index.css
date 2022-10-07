@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#F2F2F2];
+    @apply bg-very-lightgrey;
   }
   h1 {
     @apply font-ibarra text-[50px] tracking-[-0.446429px] leading-[50px] font-bold text-dark-blue;
@@ -22,7 +22,7 @@
     @apply font-publicsans text-[15px] font-medium leading-[30px] text-dark-blue opacity-[.8];
   }
   .btn-primary {
-    @apply font-publicsans text-[12px] uppercase font-medium w-[200px] h-[48px] bg-dark-blue text-[#FFFFFF] leading-[14px] tracking-[2px] text-center flex flex-row justify-center items-center pr-[41px];
+    @apply font-publicsans text-[12px] uppercase font-medium w-[200px] h-[48px] bg-dark-blue text-white leading-[14px] tracking-[2px] text-center flex flex-row justify-center items-center pr-[41px];
   }
   .btn-primary img {
     @apply w-[48px] h-[100%] ml-0 mr-auto bg-grayish-darkblue py-[18px] px-[16px];
@@ -31,10 +31,10 @@
     @apply bg-desaturated-cyan;
   }
   .btn-secondary {
-    @apply font-publicsans text-[12px] font-medium h-[48px] leading-[14px] uppercase text-center border-[1px] tracking-[2px] flex justify-center items-center;
+    @apply font-publicsans text-[12px] font-medium h-[48px] leading-[14px] uppercase text-center border-[1px] tracking-[2px] flex justify-center items-center text-[white];
   }
   .btn-secondary:hover {
-    @apply bg-dark-blue text-[#FFFFFF] border-0;
+    @apply bg-dark-blue text-white border-0;
   }
   .user-input {
     @apply flex flex-col gap-[8px];
@@ -47,5 +47,14 @@
   }
   .input02 {
     @apply text-dark-blue w-[635px] min-h-[96px] py-[9px] px-[16px] bg-dark-blue/[.1];
+  }
+  .error-message {
+    @apply font-publicsans italic font-bold text-[10px] leading-[12px] text-bright-red;
+  }
+  .error-border {
+    @apply border-bright-red border-[1px];
+  }
+  .valid-border {
+    @apply border-desaturated-cyan border-[1px];
   }
 }

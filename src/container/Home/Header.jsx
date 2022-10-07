@@ -21,7 +21,7 @@ const Header = () => {
           alt="Hero image"
         />
 
-        <div className="w-[445px] h-[357px] bg-[#F2F2F2] z-[10] mt-auto absolute">
+        <div className="w-[445px] h-[357px] bg-very-lightgrey z-[10] mt-auto absolute">
           <h1 className="mt-[56px]">
             Hey, I’m Alex Spencer and I love building beautiful websites
           </h1>
