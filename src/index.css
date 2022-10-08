@@ -7,19 +7,19 @@
     @apply bg-very-lightgrey;
   }
   h1 {
-    @apply font-ibarra text-[50px] tracking-[-0.446429px] leading-[50px] font-bold text-dark-blue;
+    @apply font-ibarra text-[50px] tracking-[-0.446429px] leading-[50px] font-bold text-grayish-darkblue;
   }
   h2 {
-    @apply font-ibarra text-[40px] tracking-[-0.357143px] leading-[42px] font-bold text-dark-blue;
+    @apply font-ibarra text-[40px] tracking-[-0.357143px] leading-[42px] font-bold text-grayish-darkblue;
   }
   h3 {
-    @apply font-ibarra text-[32px] tracking-[-0.285714px] leading-[36px] font-normal text-dark-blue;
+    @apply font-ibarra text-[32px] tracking-[-0.285714px] leading-[36px] font-normal text-grayish-darkblue;
   }
   .p-body1 {
-    @apply font-publicsans text-[16px] font-medium leading-[30px] text-dark-blue opacity-[.8] 1bp:text-[15px];
+    @apply font-publicsans text-[16px] font-medium leading-[30px] text-grayish-darkblue opacity-[.8] 1bp:text-[15px];
   }
   .p-body2 {
-    @apply font-publicsans text-[15px] font-medium leading-[30px] text-dark-blue opacity-[.8];
+    @apply font-publicsans text-[15px] font-medium leading-[30px] text-grayish-darkblue opacity-[.8];
   }
   .btn-primary {
     @apply font-publicsans text-[12px] uppercase font-medium w-[200px] h-[48px] bg-dark-blue text-white leading-[14px] tracking-[2px] text-center flex flex-row justify-center items-center pr-[41px];
@@ -43,10 +43,10 @@
     @apply font-publicsans leading-[30px] text-[13px] text-dark-blue font-bold opacity-[.8];
   }
   .input01 {
-    @apply text-dark-blue w-[635px] h-[48px] py-[9px] px-[16px] bg-dark-blue/[.1] 2bp:w-[100%];
+    @apply text-grayish-darkblue w-[635px] h-[48px] py-[9px] px-[16px] bg-grayish-darkblue/[.1] 2bp:w-[100%];
   }
   .input02 {
-    @apply text-dark-blue w-[635px] min-h-[96px] py-[9px] px-[16px] bg-dark-blue/[.1] 2bp:w-[100%];
+    @apply text-grayish-darkblue w-[635px] min-h-[96px] py-[9px] px-[16px] bg-grayish-darkblue/[.1] 2bp:w-[100%];
   }
   .error-message {
     @apply font-publicsans italic font-bold text-[10px] leading-[12px] text-bright-red;

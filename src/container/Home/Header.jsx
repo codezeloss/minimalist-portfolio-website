@@ -16,7 +16,7 @@ const Header = () => {
     <section>
       <div className="mt-[54px] flex flex-col justify-end 4bp:justify-start">
         <img
-          className="max-w-[100%] max-h-[600px] z-[-10] relative 3bp:hidden 4bp:flex 4bp:mb-[24px] 5bp:hidden"
+          className="max-w-[100%] h-[600px] z-[-10] relative 3bp:hidden 4bp:flex 4bp:h-[100%] 4bp:mb-[24px] 5bp:hidden"
           src={homepageImages.desktopHeroImage}
           alt="Hero image"
         />

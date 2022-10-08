@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="w-[100%] bg-dark-blue mt-[150px] h-[80px] flex flex-row items-center bottom-0 4bp:h-[100%] 4bp:py-[56px]">
+    <div className="w-[100%] bg-grayish-darkblue mt-[150px] h-[80px] flex flex-row items-center bottom-0 4bp:h-[100%] 4bp:py-[56px]">
       <footer className="w-[1111px] mx-auto flex flex-row justify-between px-[1.8rem] 4bp:flex-col 4bp:gap-[40px]">
         <div className="flex flex-row items-center gap-[48px] 4bp:flex-col 4bp:gap-[40px]">
           <img
