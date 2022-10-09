@@ -1,6 +1,6 @@
 # Frontend Mentor - Minimalist portfolio website
 
-Live : [Link](https://clever-syrniki-8fb39e.netlify.app/)
+Live : [Link](https://serene-cheesecake-7c969e.netlify.app/)
 
 ![Design preview for the Minimalist portfolio website coding challenge](./preview.jpg)
 
